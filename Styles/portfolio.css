@@ -42,7 +42,7 @@
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-weight: 600;
-    line-height: 28px;
+    line-height: 30px;
     letter-spacing: 0%;
     text-align: center;
     font-size: 22px;
@@ -70,3 +70,295 @@
     flex-direction: row;
     justify-content: center;
 }
+
+#header{
+    width: 1350px;
+    height: 1300px;
+    padding: 80px 97px 80px 97px;
+    background: rgba(13, 19, 33, 0.02);
+}
+#header .heading{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#header .description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+    margin-right: 100px;
+}
+
+.items-1{
+    width: 935px;
+    height: 330px;
+    border-radius: 16px;
+    margin: 30px 0px;
+    padding: 48px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+.items-1 .sub-items-1{
+    width: 850px;
+    height: 240px;
+}
+
+.items-1 .sub-items-1 .items-content .heading{
+   width: 480px;
+   margin-top: 15px;
+   margin-bottom: 25px;
+}
+
+.items-1 .sub-items-1 .items-content .description{
+    width: 480px;
+    height: 52px;
+    margin-bottom: 35px;
+}
+
+.items-1 .sub-items-1 .items-content .btn{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0px 10px;
+    padding: 12px 20px 12px 20px;
+    width: 150px;
+    height: 48px;
+    margin: 50px 0px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+}
+
+.items-1 .sub-items-1 .group-picture{
+    flex: auto;
+    align-items: end;
+}
+
+.items-2{
+    width: 935px;
+    height: 330px;
+    border-radius: 16px;
+    margin: 30px 0px;
+    padding: 48px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.items-2 .sub-items-2{
+    width: 850px;
+    height: 240px;
+}
+.items-2 .sub-items-2 .items-content{
+    width: 477px;
+    height: 220px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0px;
+    margin: 10px 80px 10px;
+}
+.items-2 .sub-items-2 .items-content .heading{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 16px 0px;
+    width: 480px;
+   margin-top: 15px;
+   margin-bottom: 25px;
+}
+
+.items-2 .sub-items-2 .items-content .description{
+    width: 480px;
+    height: 52px;
+    margin-bottom: 35px;
+}
+
+.items-2 .sub-items-2 .items-content .btn{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0px 10px;
+    padding: 12px 20px 12px 20px;
+    width: 150px;
+    height: 48px;
+    margin: 50px 0px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+}
+
+.items-3{
+    width: 935px;
+    height: 330px;
+    border-radius: 16px;
+    margin: 30px 0px;
+    padding: 48px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+.items-3 .sub-items-3{
+    width: 850px;
+    height: 240px;
+}
+.items-3 .sub-items-3 .items-content{
+    width: 477px;
+    height: 220px;
+    flex-direction: column;
+    padding: 0px;
+}
+
+
+.items-3 .sub-items-3 .items-content .heading{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 16px 0px;
+    width: 480px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.items-3 .sub-items-3 .items-content .description{
+    width: 480px;
+    height: 52px;
+    margin-bottom: 35px;
+}
+.items-3 .sub-items-3 .items-content .btn{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0px 10px;
+    padding: 12px 20px 12px 20px;
+    width: 150px;
+    height: 48px;
+    margin: 50px 0px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+}
+#video{
+    position: absolute;
+    width: 1140px;
+    height: 400px;
+    left: 148px;
+    right: 152px;
+    margin-top: 180px;
+}
+#video .heading{
+    position: static;
+    width: 852px;
+    height: 39px;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    align-items: center;
+    margin: 80px 140px 24px 140px;
+}
+#video .description{
+    margin: 0px 140px 50px 140px;
+    position: static;
+    width: 852px;
+    height: 52px;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#video .video-container{
+    position: static;
+    width: 1140px;
+    height: 614px;
+    padding: 32px;
+    margin: 48px 0px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+
+#skills{
+    position: static;
+    width: 1000px;
+    height: 463px;
+    margin: 111px 0px;
+}
+
+#skills .skills-container{
+    position: static;
+    width: 950px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
+
+#skills .skills-container .skill{
+    position: static;
+    width: 364px;
+    height: 300px;
+}
+
+
+#secondary{
+    position: absolute;
+    width: 1050px;
+    height: 314px;
+    left: 150px;
+    right: 150px;
+    top: 4752px;
+    bottom: 179px;
+    padding: 64px 48px 64px 48px;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+}
+#secondary .footer-row{
+    position: static;
+    width: 1000px;
+    height: 186px;
+    margin: 32px 0px;
+ }
+
+ #secondary .footer-row .heading{
+    position: static;
+    width: 292px;
+    height: 36px;
+ }
